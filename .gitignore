@@ -1,21 +1,26 @@
-# Python cache
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Virtual environments
 .venv/
+.venv-1/
 venv/
 env/
 ENV/
 
-# Distribution / packaging
+# Poetry
+poetry.toml
+
+# Packaging artifacts
 build/
 dist/
 *.egg-info/
 .eggs/
+pip-wheel-metadata/
 
-# Test / coverage
+# Test / coverage / type-check caches
 .pytest_cache/
 .coverage
 .coverage.*
@@ -26,15 +31,13 @@ htmlcov/
 # Jupyter
 .ipynb_checkpoints/
 
-# IDE/editor
+# IDE / editor
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
+# OS / logs
 .DS_Store
 Thumbs.db
-
-# Logs
 *.log
